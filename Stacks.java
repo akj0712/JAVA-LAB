@@ -45,10 +45,10 @@ public class Stacks {
 			Double d = sc.nextDouble();
 			sd.push(d);
 		}
-		System.out.println("Element of Integer Stcak are: ");
+		System.out.println("Element of Integer Stack are: ");
 		for(int i = 0; i < 10; i++)
 			System.out.println(si.pop());
-		System.out.println("Element of Integer Stcak are: ");
+		System.out.println("Element of Integer Stack are: ");
 		for(int i = 0; i < 10; i++)
 			System.out.println(sd.pop());
 		sc.close();
